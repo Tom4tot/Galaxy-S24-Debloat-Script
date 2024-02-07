@@ -96,7 +96,7 @@ Of course, you might lose some apps/features that you actually want to use, so b
 - `com.google.android.apps.tachyon` Google Meet
 - `com.google.android.googlequicksearchbox` Google App
 - `com.google.android.gm` Gmail
-- `com.google.android.gms.supervision`
+- `com.google.android.gms.supervision` Family Link parental controls
 - `com.google.android.youtube` YouTube
 ### Advertisements
 - `com.facebook.services`
