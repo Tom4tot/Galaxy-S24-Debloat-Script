@@ -1,8 +1,8 @@
 # Galaxy S24 Debloating - ADB - list of commands
 
 ### Introduction and general information
-- Made for: Samsung Galaxy S24 SM-S921B-DS (Exynos, 256GB) - Android 14 - One UI 6.1 - Build UPIA.231005.007.S921BXXUIAWM9 - Baseband S921BXXUIAWM9
-- Commands are designed for Windows 11 with CMD.
+- Made for: **Samsung Galaxy S24 SM-S921B-DS** (Exynos, 256GB) - **Android 14** - **One UI 6.1** - Build UPIA.231005.007.S921BXXUIAWM9 - Baseband S921BXXUIAWM9
+- Commands are designed for **Windows 11 with CMD**.
 - No root needed, only access to a computer to apply the ADB commands.
 - This won't affect your warranty, Knox, etc.
 - Last update: 2024-02-07
@@ -13,7 +13,7 @@ Of course, you might lose some apps/features that you actually want to use, so b
 ### Purpose
 - Coming from a Pixel 6 running Graphene OS, I just can't stand Google, Samsung and my internet provider bloat. I don't like relying on premade / universal / GUI scripts that I don't have control with, therefore I made some very simple ADB commands to clean up my phone. In case you need to factory reset or if apps come back after an update, it's much faster to apply rather than manually uninstalling/disabling apps.  
   - For system apps, I disable them instead of uninstalling them. Usually, this strategy sticks better. Also, you should know, that without root, you can't actually totally uninstall system apps. You can only uninstall them for a user, so they still exist in the system. That's why it's easy to recover them with other utilities.
-- Bonus tip: use ADB for very large transfers: with a USB 3 cable, I moved my entired music library with an average speed of 200MB/s. It'd be impossible to reach with MTP.
+- Bonus tip: **use ADB for very large file transfers**: with a USB 3 cable, I moved my entired music library with an average speed of 200MB/s. It'd be impossible to reach with MTP.
 
 ## Prerequisites
 - [Google USB drivers](https://developer.android.com/studio/run/win-usb) so your phone is properly detected
@@ -86,7 +86,7 @@ Of course, you might lose some apps/features that you actually want to use, so b
   
 ## List of system apps safe to disable
 ### Samsung
-- `com.aura.oobe.samsung` this is the app allowing your carrier to install apps for you...
+- `com.aura.oobe.samsung` **this is the app allowing your carrier to install apps for you...**
 - `com.samsung.android.bixby.agent` Bixby Voice
 - `com.samsung.android.bixby.wakeup` Bixby wake-up
 - `com.samsung.android.bixbyvision.framework` Bixby VisionFramework
