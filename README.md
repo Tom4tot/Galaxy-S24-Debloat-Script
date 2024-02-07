@@ -83,24 +83,44 @@ Of course, you might lose some apps/features that you actually want to use, so b
 ## List of system apps safe to disable
 ### Samsung
 - `com.aura.oobe.samsung` this is the app allowing your carrier to install apps for you...
-- `com.samsung.android.messaging` Samsung Messages
-- `com.samsung.android.smartswitchassistant` Samsung Smart Switch
-- `com.samsung.android.samsungpass` Samsung Pass
+- `com.samsung.android.bixby.agent` Bixby Voice
+- `com.samsung.android.bixby.wakeup` Bixby wake-up
+- `com.samsung.android.bixbyvision.framework` Bixby VisionFramework
+- `com.samsung.android.fmm` Find My Mobile (Samsung)
 - `com.samsung.android.game.gametools` Game Booster
 - `com.samsung.android.game.gos` Game Optimizing Service
+- `com.samsung.android.mdx` Link to Windows Service
+- `com.samsung.android.messaging` Samsung Messages
+- `com.samsung.android.samsungpass` Samsung Pass
+- `com.samsung.android.samsungpassautofill` Autofill with Samsung Pass
+- `com.samsung.android.smartswitchassistant` Samsung Smart Switch
 - `com.samsung.cmfa.AuthTouch` CMFA AuthTouchService: Samsung password manager
+- `com.samsung.storyservice` Gallery stories
+- `com.sec.android.easyMover.Agent` Smart Switch Agent
 - `com.sec.android.easyMover` Samsung Smart Switch
+- `com.sec.android.mimage.avatarstickers` AR Emoji Stickers
 ### Google
+- `com.android.apps.tag` Tags
+- `com.android.bookmarkprovider` Bookmarks Provider
 - `com.android.chrome` Chrome
+- `com.android.hotwordenrollment.okgoogle` Google Assistant
+- `com.android.hotwordenrollment.xgoogle` Google Assistant
 - `com.google.android.apps.googleassistant` Assistant
 - `com.google.android.apps.tachyon` Google Meet
-- `com.google.android.googlequicksearchbox` Google App
 - `com.google.android.gm` Gmail
+- `com.google.android.gms.location.history` Google Location Hisotry
 - `com.google.android.gms.supervision` Family Link parental controls
+- `com.google.android.googlequicksearchbox` Google App
+- `com.google.android.onetimeinitializer` Google One Time Init
+- `com.google.android.projection.gearhead` Android Auto
+- `com.google.android.setupwizard` Android Setup
+- `com.google.android.syncadapters.calendar` Google Calendar Sync
 - `com.google.android.youtube` YouTube
+- `com.google.ar.core` Google Play Service for AR
 ### Advertisements
 - `com.facebook.services`
 - `com.facebook.appmanager`
+- `com.microsoft.appmanager` Link to Windows
 - `com.microsoft.skydrive` Microsoft OneDrive
 ### Orange
 - `com.orange.update` App Center
