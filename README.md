@@ -61,8 +61,10 @@ Of course, you might lose some apps/features that you actually want to use, so b
 ### Google apps
 - `com.google.android.apps.docs`
 - `com.google.android.apps.photos`
+- `com.google.android.apps.tachyon` Google Meet
 - `com.google.android.apps.youtube.music`
 - `com.google.android.videos`
+
 ### Advertisement 
 - `com.amazon.appmanager`
 - `com.amazon.mShop.android.shopping`
@@ -82,24 +84,24 @@ Of course, you might lose some apps/features that you actually want to use, so b
 ## List of system apps safe to disable
 ### Samsung
 - `com.aura.oobe.samsung` this is the app allowing your carrier to install apps for you...
-- `com.samsung.android.messaging`
-- `com.samsung.android.smartswitchassistant`
-- `com.samsung.android.samsungpass`
-- `com.samsung.android.game.gametools`
-- `com.samsung.android.game.gos`
+- `com.samsung.android.messaging` Samsung Messages
+- `com.samsung.android.smartswitchassistant` Samsung Smart Switch
+- `com.samsung.android.samsungpass` Samsung Pass
+- `com.samsung.android.game.gametools` Game Booster
+- `com.samsung.android.game.gos` Game Optimizing Service
+- `com.samsung.cmfa.AuthTouch` CMFA AuthTouchService: Samsung password manager
 ### Google
-- `com.android.chrome`
-- `com.google.android.youtube`
-- `com.google.android.googlequicksearchbox`
-- `com.google.android.gm`
-- `com.google.android.apps.tachyon`
-- `com.google.android.apps.googleassistant`
+- `com.android.chrome` Chrome
+- `com.google.android.youtube` YouTube
+- `com.google.android.googlequicksearchbox` Google App
+- `com.google.android.gm` Gmail
+- `com.google.android.apps.googleassistant` Assistant
 ### Advertisements
 - `com.facebook.services`
 - `com.facebook.appmanager`
-- `com.microsoft.skydrive`
+- `com.microsoft.skydrive` Microsoft OneDrive
 ### Orange
-- `com.orange.update`
+- `com.orange.update` App Center
 
 ## Example of mass / bulk debloating
 ### User apps - Samsung+Google+Advertisement
@@ -107,7 +109,7 @@ Of course, you might lose some apps/features that you actually want to use, so b
 ### User apps - Orange
 - `adb uninstall com.orange.appshop && adb uninstall com.orange.orangeetmoi && adb uninstall com.orange.phone && adb uninstall com.orange.securite && adb uninstall com.orange.owtv && adb uninstall com.orange.mail.fr`
 ### System apps - Samsung+Google+Advertisement
-- `adb shell pm disable-user --user 0 com.orange.update && adb shell pm disable-user --user 0 com.microsoft.skydrive && adb shell pm disable-user --user 0 com.google.android.youtube && adb shell pm disable-user --user 0 com.google.android.googlequicksearchbox && adb shell pm disable-user --user 0 com.google.android.gm && adb shell pm disable-user --user 0 com.google.android.apps.tachyon && adb shell pm disable-user --user 0 com.google.android.apps.googleassistant && adb shell pm disable-user --user 0 com.facebook.system && adb shell pm disable-user --user 0 com.facebook.services && adb shell pm disable-user --user 0 com.facebook.appmanager && adb shell pm disable-user --user 0 com.android.chrome && adb shell pm disable-user --user 0 com.samsung.android.smartswitchassistant && adb shell pm disable-user --user 0 com.samsung.android.samsungpass && adb shell pm disable-user --user 0 com.samsung.android.game.gametools && adb shell pm disable-user --user 0 com.samsung.android.game.gos && adb shell pm disable-user --user 0 com.samsung.android.messaging`
+- `adb shell pm disable-user --user 0 com.orange.update && adb shell pm disable-user --user 0 com.microsoft.skydrive && adb shell pm disable-user --user 0 com.google.android.youtube && adb shell pm disable-user --user 0 com.google.android.googlequicksearchbox && adb shell pm disable-user --user 0 com.google.android.gm && adb shell pm disable-user --user 0 com.google.android.apps.tachyon && adb shell pm disable-user --user 0 com.google.android.apps.googleassistant && adb shell pm disable-user --user 0 com.facebook.system && adb shell pm disable-user --user 0 com.facebook.services && adb shell pm disable-user --user 0 com.facebook.appmanager && adb shell pm disable-user --user 0 com.android.chrome && adb shell pm disable-user --user 0 com.samsung.android.smartswitchassistant && adb shell pm disable-user --user 0 com.samsung.android.samsungpass && adb shell pm disable-user --user 0 com.samsung.android.game.gametools && adb shell pm disable-user --user 0 com.samsung.android.game.gos && adb shell pm disable-user --user 0 com.samsung.android.messaging && adb shell pm disable-user --user 0 com.samsung.cmfa.AuthTouch`
 ### System apps - Orange
 - `adb shell pm disable-user --user 0 com.orange.update`
 
