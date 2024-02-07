@@ -15,7 +15,7 @@ Of course, you might lose some apps/features that you actually want to use, so b
   - For system apps, I disable them instead of uninstalling them. Usually, this strategy sticks better. Also, you should know, that without root, you can't actually totally uninstall system apps. You can only uninstall them for a user, so they still exist in the system. That's why it's easy to recover them with other utilities.
 - Bonus tip: use ADB for very large transfers: with a USB 3 cable, I moved my entired music library with an average speed of 200MB/s. It'd be impossible to reach with MTP.
 
-## Prerequisites:
+## Prerequisites
 - [Google USB drivers](https://developer.android.com/studio/run/win-usb) so your phone is properly detected
 - [Platform tools](https://developer.android.com/tools/releases/platform-tools#downloads) so you can use ADB commands, open CMD within the folder.
 
