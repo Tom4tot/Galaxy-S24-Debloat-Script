@@ -108,7 +108,7 @@ Of course, you might lose some apps/features that you actually want to use, so b
 - `com.google.android.apps.googleassistant` Assistant
 - `com.google.android.apps.tachyon` Google Meet
 - `com.google.android.gm` Gmail
-- `com.google.android.gms.location.history` Google Location Hisotry
+- `com.google.android.gms.location.history` Google Location History
 - `com.google.android.gms.supervision` Family Link parental controls
 - `com.google.android.googlequicksearchbox` Google App
 - `com.google.android.onetimeinitializer` Google One Time Init
