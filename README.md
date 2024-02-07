@@ -75,11 +75,34 @@
 - `com.orange.securite`
   
 ## List of system apps safe to disable
-
+### Samsung
+- `com.aura.oobe.samsung` this is the app allowing your carrier to install apps for you...
+- `com.samsung.android.messaging`
+- `com.samsung.android.smartswitchassistant`
+- `com.samsung.android.samsungpass`
+- `com.samsung.android.game.gametools`
+- `com.samsung.android.game.gos`
+### Google
+- `com.android.chrome`
+- `com.google.android.youtube`
+- `com.google.android.googlequicksearchbox`
+- `com.google.android.gm`
+- `com.google.android.apps.tachyon`
+- `com.google.android.apps.googleassistant`
+### Advertisements
+- `com.facebook.services`
+- `com.facebook.appmanager`
+- `com.microsoft.skydrive`
+### Orange
+- `com.orange.update`
 
 ## Example of mass / bulk debloating
 ### User apps - Samsung+Google+Advertisement
+- `adb uninstall com.microsoft.office.outlook && adb uninstall com.samsung.android.bixby.ondevice.frfr && adb uninstall com.google.android.apps.photos && adb uninstall com.sec.android.app.sbrowser && adb uninstall com.samsung.android.calendar && adb uninstall com.samsung.android.app.reminder && adb uninstall com.google.android.apps.youtube.music && adb uninstall com.sec.android.app.shealth && adb uninstall com.samsung.android.nmt.apps.t2t.languagepack.enfr && adb uninstall com.sec.android.app.popupcalculator && adb uninstall com.booking.aidprovider && adb uninstall com.samsung.SMT.lang_en_us_l03 && adb uninstall && om.samsung.android.bixby.ondevice.enus && adb uninstall com.google.android.apps.docs && adb uninstall com.samsung.android.arzone && adb uninstall com.samsung.android.voc && adb uninstall com.samsung.android.app.tips && adb uninstall com.sec.android.app.clockpackage && adb uninstall com.samsung.android.app.find && adb uninstall com.samsung.android.app.notes && adb uninstall com.amazon.appmanager && adb uninstall com.google.android.videos && adb uninstall com.sec.android.app.voicenote && adb uninstall com.amazon.mShop.android.shopping && adb uninstall com.facebook.katana && adb uninstall com.samsung.sree && adb uninstall com.samsung.android.app.spage && adb uninstall com.samsung.android.oneconnect && adb uninstall com.samsung.android.game.gamehome && adb uninstall com.samsung.SMT.lang_fr_fr_l01 && adb uninstall com.microsoft.office.officehubrow && adb uninstall com.samsung.android.spay && adb uninstall com.samsung.android.app.watchmanager && adb uninstall com.samsung.android.tvplus && adb uninstall com.sec.android.app.kidshome && adb uninstall com.booking`
 ### User apps - Orange
+- `adb uninstall com.orange.appshop && adb uninstall com.orange.orangeetmoi && adb uninstall com.orange.phone && adb uninstall com.orange.securite && adb uninstall com.orange.owtv && adb uninstall com.orange.mail.fr`
 ### System apps - Samsung+Google+Advertisement
+- `adb shell pm disable-user --user 0 com.orange.update && adb shell pm disable-user --user 0 com.microsoft.skydrive && adb shell pm disable-user --user 0 com.google.android.youtube && adb shell pm disable-user --user 0 com.google.android.googlequicksearchbox && adb shell pm disable-user --user 0 com.google.android.gm && adb shell pm disable-user --user 0 com.google.android.apps.tachyon && adb shell pm disable-user --user 0 com.google.android.apps.googleassistant && adb shell pm disable-user --user 0 com.facebook.system && adb shell pm disable-user --user 0 com.facebook.services && adb shell pm disable-user --user 0 com.facebook.appmanager && adb shell pm disable-user --user 0 com.android.chrome && adb shell pm disable-user --user 0 com.samsung.android.smartswitchassistant && adb shell pm disable-user --user 0 com.samsung.android.samsungpass && adb shell pm disable-user --user 0 com.samsung.android.game.gametools && adb shell pm disable-user --user 0 com.samsung.android.game.gos && adb shell pm disable-user --user 0 com.samsung.android.messaging`
 ### System apps - Orange
+- `adb shell pm disable-user --user 0 com.orange.update`
 
