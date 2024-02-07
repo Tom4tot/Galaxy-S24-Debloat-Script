@@ -1,7 +1,7 @@
 # Galaxy S24 Debloat Script - ADB - list of commands
 
 ### Introduction and general information
-- Made for: Samsung Galaxy S24 SM-S921B-DS (Exynos, 256GB) - Android 14 - One UI 6.1 - Build UPIA.231005.007.S921BXXUIAWM9 - Baseband S921BXXUIAWM9-
+- Made for: Samsung Galaxy S24 SM-S921B-DS (Exynos, 256GB) - Android 14 - One UI 6.1 - Build UPIA.231005.007.S921BXXUIAWM9 - Baseband S921BXXUIAWM9
 - Commands are designed for Windows 11 with CMD.
 - No root needed, only access to a computer to apply the ADB commands.
 - This won't affect your warranty, Knox, etc.
