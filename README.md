@@ -89,6 +89,7 @@ Of course, you might lose some apps/features that you actually want to use, so b
 - `com.samsung.android.game.gametools` Game Booster
 - `com.samsung.android.game.gos` Game Optimizing Service
 - `com.samsung.cmfa.AuthTouch` CMFA AuthTouchService: Samsung password manager
+- `com.sec.android.easyMover` Samsung Smart Switch
 ### Google
 - `com.android.chrome` Chrome
 - `com.google.android.apps.googleassistant` Assistant
