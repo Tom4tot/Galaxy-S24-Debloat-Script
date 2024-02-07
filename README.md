@@ -13,7 +13,7 @@ Of course, you might lose some apps/features that you actually want to use, so b
 ### Purpose
 - Coming from a Pixel 6 running Graphene OS, I just can't stand Google, Samsung and my internet provider bloat. I don't like relying on premade / universal / GUI scripts that I don't have control with, therefore I made some very simple ADB commands to clean up my phone. In case you need to factory reset or if apps come back after an update, it's much faster to apply rather than manually uninstalling/disabling apps.  
   - For system apps, I disable them instead of uninstalling them. Usually, this strategy sticks better. Also, you should know, that without root, you can't actually totally uninstall system apps. You can only uninstall them for a user, so they still exist in the system. That's why it's easy to recover them with other utilities.
-- Bonus tip: **use ADB for very large file transfers**: with a USB 3 cable, I moved my entired music library with an average speed of 200MB/s. It'd be impossible to reach with MTP.
+- Unrelated tip that however changed my life: **use ADB for very large file transfers**: with a USB 3 cable, I moved my entired music library with an average speed of 200MB/s. It'd be impossible to reach that with MTP.
 
 ## Prerequisites
 - [Google USB drivers](https://developer.android.com/studio/run/win-usb) so your phone is properly detected
