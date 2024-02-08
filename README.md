@@ -37,6 +37,7 @@ Of course, you might lose some apps/features that you actually want to use, so b
 - Example: `adb pull "/sdcard/download/test.pdf" "C:\Users\Tom\Downloads"`
 
 ## List of user apps installed
+- Note: you can find easily what are the labels of Samsung apps by adding the package name to the following URL: https://galaxystore.samsung.com/detail/ (e.g. https://galaxystore.samsung.com/detail/com.samsung.android.voc)
 ### Samsung Apps
 - `com.samsung.SMT.lang_en_us_l03`
 - `com.samsung.SMT.lang_fr_fr_l01`
