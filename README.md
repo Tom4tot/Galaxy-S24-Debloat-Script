@@ -108,11 +108,11 @@ Of course, you might lose some apps/features that you actually want to use, so b
 - `com.samsung.android.mdecservice` Call & text on other devices
 - `com.samsung.android.mdx` Link to Windows Service
 - `com.samsung.android.messaging` Samsung Messages
+- `com.samsung.android.rubin.app` Customization Service
 - `com.samsung.android.samsungpass` Samsung Pass
 - `com.samsung.android.samsungpassautofill` Autofill with Samsung Pass
 - `com.samsung.android.smartswitchassistant` Samsung Smart Switch
 - `com.samsung.android.spayfw` Samsung Pay Framework
-- `com.samsung.rubin.app` Customization Service
 - `com.samsung.storyservice` Gallery stories
 - `com.sec.android.app.billing` Samsung Checkout
 - `com.sec.android.easyMover.Agent` Smart Switch Agent
