@@ -144,8 +144,8 @@ Of course, you might lose some apps/features that you actually want to use, so b
 - `com.sec.android.daemonapp Android Weather` Wather
 - `com.sec.android.mimage.avatarstickers` AR stuff
 ### Advertisements
-- `com.facebook.services`
-- `com.facebook.appmanager`
+- `com.facebook.services` Facebook crap
+- `com.facebook.appmanager` Facebook crap
 - `com.microsoft.appmanager` Link to Windows
 - `com.microsoft.skydrive` Microsoft OneDrive
 ### Orange
