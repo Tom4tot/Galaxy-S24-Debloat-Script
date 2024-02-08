@@ -31,9 +31,9 @@ Of course, you might lose some apps/features that you actually want to use, so b
 - `adb install` install app. If it's not in the same location as the adb.exe file, write the file's full path
 - `for %f in ("[FOLDER'S PATH]\*.apk") do adb install "%f"` install all apks stored in a folder
 - `adb push [source] [destination]` copy files from your computer to your phone. Works for folders too.
-- Example: `adb pull /sdcard/download/test.pdf C:\Users\Tom\Downloads`
-- `adb pull [device file location] [local file location]` Copy files from phone to computer.
 - Example: `adb push C:\Users\Tom\Downloads\1-Music\4-Phone /sdcard/music`
+- `adb pull [device file location] [local file location]` Copy files from phone to computer.
+- Example: `adb pull /sdcard/download/test.pdf C:\Users\Tom\Downloads`
 
 ## List of user apps installed
 ### Samsung Apps
