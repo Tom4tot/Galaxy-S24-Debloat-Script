@@ -1,11 +1,13 @@
 # Galaxy S24 Debloating - ADB - list of commands
 
 ### Introduction and general information
-- Made for: **Samsung Galaxy S24 SM-S921B-DS** (Exynos, 256GB) - **Android 14** - **One UI 6.1** - Build UPIA.231005.007.S921BXXUIAWM9 - Baseband S921BXXUIAWM9
+- Made for: **Samsung Galaxy S24 SM-S921B-DS** (Exynos, 256GB) - **Android 14** - **One UI 6.1** -
+  - ✅Made originally for build UP1A.231005.007.S921BXXUIAWM9 - Baseband S921BXXUIAWM9
+  - ✅February OTA update didn't revert any disabled app, no bloat added.
 - Commands are designed for **Windows 11 with CMD**.
 - No root needed, only access to a computer to apply the ADB commands.
 - This won't affect your warranty, Knox, etc.
-- Last update: 2024-02-07
+- Last update: 2024-02-29
 
 ### Warning
 Of course, you might lose some apps/features that you actually want to use, so before running the commands I provide as an example, make sure you won't miss anything. Disabling/uninstalling vital system apps may break your system.
