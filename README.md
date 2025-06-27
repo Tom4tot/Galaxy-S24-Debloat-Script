@@ -1,9 +1,8 @@
 # Galaxy S24 Debloating - ADB - list of commands
 
 ### Introduction and general information
-- Made for: **Samsung Galaxy S24 SM-S921B-DS** (Exynos, 256GB) - **Android 14** - **One UI 6.1** -
-  - ✅Made originally for build UP1A.231005.007.S921BXXUIAWM9 - Baseband S921BXXUIAWM9
-  - ✅February, March and April OTA updates didn't revert any disabled app, no bloat added. I will have to check for major updates, but it seems all my changes aren't being reverted.
+- Made for: **Samsung Galaxy S24 SM-S921B-DS** (Exynos, 256GB) - **Android 14** - **One UI 6.1**
+- **It works exactly the same way on Android 15 - One UI 7 and it will also be perfectly compatible with Android 16 - One UI 8. Some apps may be added/removed but the process will remain the same.**
 - Commands are designed for **Windows 11 with CMD**.
 - No root needed, only access to a computer to apply the ADB commands.
 - This won't affect your warranty, Knox, etc.
