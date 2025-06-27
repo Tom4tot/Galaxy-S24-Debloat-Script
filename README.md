@@ -6,7 +6,7 @@
 - Commands are designed for **Windows 11 with CMD**.
 - No root needed, only access to a computer to apply the ADB commands.
 - This won't affect your warranty, Knox, etc.
-- Last update: 2024-04-03
+- Last update: 2025-06-27
 - Keywoards: debloat debloating bloatware adware spyware disable uninstall
 
 ### Warning
