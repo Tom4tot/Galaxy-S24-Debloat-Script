@@ -1,12 +1,12 @@
 # Galaxy S24 Debloating - ADB - list of commands
 
 ### Introduction and general information
-- Made for: **Samsung Galaxy S24 SM-S921B-DS** (Exynos, 256GB) - **Android 14** - **One UI 6.1**
-- **It works exactly the same way on Android 15 - One UI 7 and it will also be perfectly compatible with Android 16 - One UI 8. Some apps may be added/removed but the process will remain the same.**
+- Made for: **Samsung Galaxy S24 SM-S921B-DS** (Exynos, 256GB) - **Android 14-15-16** - **One UI 6.1 - 7 - 8**
+- **It works exactly the same way on all android versions to date**
 - Commands are designed for **Windows 11 with CMD**.
 - No root needed, only access to a computer to apply the ADB commands.
 - This won't affect your warranty, Knox, etc.
-- Last update: 2025-06-27
+- Last update: 2025-09-29
 - Keywoards: debloat debloating bloatware adware spyware disable uninstall
 
 ### Warning
@@ -163,3 +163,16 @@ Of course, you might lose some apps/features that you actually want to use, so b
 ### System apps - Orange
 - `adb shell pm disable-user --user 0 com.orange.update`
 
+### New system apps to disable (tested one One UI 8 - MAKE SURE YOU DON'T NEED THEM)
+- `adb shell pm disable-user --user 0 com.samsung.android.mapsagent && adb shell pm disable-user --user 0 com.samsung.android.visionintelligence && adb shell pm disable-user --user 0 com.samsung.android.carkey && adb shell pm disable-user --user 0 com.samsung.android.app.sketchbook && adb shell pm disable-user --user 0 com.google.android.apps.bard && adb shell pm disable-user --user 0 com.samsung.android.app.interpreter && adb shell pm disable-user --user 0 com.google.audio.hearing.visualization.accessibility.scribe && adb shell pm disable-user --user 0 com.sec.android.app.quicktool && adb shell pm disable-user --user 0 com.samsung.android.app.taskedge && adb shell pm disable-user --user 0 com.samsung.android.app.clipboardedge`
+List:
+com.google.android.apps.bard 
+com.google.audio.hearing.visualization.accessibility.scribe  
+com.samsung.android.app.clipboardedge  
+com.samsung.android.app.interpreter  
+com.samsung.android.app.sketchbook  
+com.samsung.android.app.taskedge  
+com.samsung.android.carkey  
+com.samsung.android.mapsagent  
+com.samsung.android.visionintelligence  
+com.sec.android.app.quicktool  
