@@ -7,7 +7,7 @@
 - No root needed, only access to a computer to apply the ADB commands.
 - This won't affect your warranty, Knox, etc.
 - Last update: 2025-09-29
-- Keywoards: debloat debloating bloatware adware spyware disable uninstall
+- Keywords: debloat debloating bloatware adware spyware disable uninstall
 
 ### Warning
 Of course, you might lose some apps/features that you actually want to use, so before running the commands I provide as an example, make sure you won't miss anything. Disabling/uninstalling vital system apps may break your system.
