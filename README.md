@@ -1,8 +1,9 @@
 # Galaxy S24 Debloating - ADB - list of commands
 
 ### Introduction and general information
-- Made for: **Samsung Galaxy S24 SM-S921B-DS** (Exynos, 256GB) - **Android 14-15-16** - **One UI 6.1 - 7 - 8**
-- **It works exactly the same way on all android versions to date**
+- Made for: **Samsung Galaxy S24 SM-S921B-DS** (Exynos, 256GB) - **Android 14-15-16** - **One UI 6.1 - 7 - 8 - 8.5**
+- It works exactly the same way on all android versions to date
+- **One UI 8.5 is still supported and everything is working as expected.**
 - Commands are designed for **Windows 11 with CMD**.
 - No root needed, only access to a computer to apply the ADB commands.
 - This won't affect your warranty, Knox, etc.
