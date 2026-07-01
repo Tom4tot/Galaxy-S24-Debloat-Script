@@ -7,7 +7,7 @@
 - Commands are designed for **Windows 11 with CMD**.
 - No root needed, only access to a computer to apply the ADB commands.
 - This won't affect your warranty, Knox, etc.
-- Last update: 2025-09-29
+- Last update: 2026-07-01
 - Keywords: debloat debloating bloatware adware spyware disable uninstall
 
 ### Warning
@@ -175,23 +175,23 @@ com.samsung.android.mapsagent
 com.samsung.android.visionintelligence  
 com.sec.android.app.quicktool
 
-## New apps disabled (2026-07-01) (tested one One UI 8.5 - MAKE SURE YOU DON'T NEED THEM)
-- `adb shell pm disable-user --user 0 com.google.android.apps.setupwizard.searchselector && adb shell pm disable-user --user 0 com.google.android.aicore && adb shell pm disable-user --user 0 com.google.android.feedback && adb shell pm disable-user --user 0 com.google.android.adservices.api && adb shell pm disable-user --user 0 com.google.android.apps.aiwallpapers && adb shell pm disable-user --user 0 com.google.android.as && adb shell pm disable-user --user 0 com.google.android.as.oss && adb shell pm disable-user --user 0 com.samsung.android.vision.model && adb shell pm disable-user --user 0 com.samsung.android.wifi.intelligence && adb shell pm disable-user --user 0 com.samsung.android.aicore && adb shell pm disable-user --user 0 com.samsung.android.wifi.ai && adb shell pm disable-user --user 0 com.samsung.android.mocca && adb shell pm disable-user --user 0 com.samsung.petservice && adb shell pm disable-user --user 0 com.samsung.android.scpm && adb shell pm disable-user --user 0 com.google.android.glasses.core && adb shell pm disable-user --user 0 com.google.android.apps.setupwizard.searchselector && adb shell pm disable-user --user 0 com.samsung.faceservice && adb shell pm disable-user --user 0 com.samsung.android.smartface`
+### New apps disabled (2026-07-01) (tested one One UI 8.5 - MAKE SURE YOU DON'T NEED THEM)
+- `adb shell pm disable-user --user 0 com.google.android.apps.setupwizard.searchselector && adb shell pm disable-user --user 0 com.google.android.aicore && adb shell pm disable-user --user 0 com.google.android.feedback && adb shell pm disable-user --user 0 com.google.android.adservices.api && adb shell pm disable-user --user 0 com.google.android.apps.aiwallpapers && adb shell pm disable-user --user 0 com.google.android.as && adb shell pm disable-user --user 0 com.google.android.as.oss && adb shell pm disable-user --user 0 com.samsung.android.vision.model && adb shell pm disable-user --user 0 com.samsung.android.wifi.intelligence && adb shell pm disable-user --user 0 com.samsung.android.aicore && adb shell pm disable-user --user 0 com.samsung.android.wifi.ai && adb shell pm disable-user --user 0 com.samsung.android.mocca && adb shell pm disable-user --user 0 com.samsung.petservice && adb shell pm disable-user --user 0 com.samsung.android.scpm && adb shell pm disable-user --user 0 com.google.android.glasses.core && adb shell pm disable-user --user 0 com.google.android.apps.setupwizard.searchselector && adb shell pm disable-user --user 0 com.samsung.faceservice && adb shell pm disable-user --user 0 com.samsung.android.smartface`  
 List:  
-com.google.android.apps.setupwizard.searchselector
-com.google.android.aicore
-com.google.android.feedback
-com.google.android.adservices.api
-com.google.android.apps.aiwallpapers
-com.google.android.as
-com.google.android.as.oss
-com.samsung.android.vision.model
-com.samsung.android.wifi.intelligence
-com.samsung.android.aicore
-com.samsung.android.wifi.ai
-com.samsung.android.mocca
-com.samsung.petservice
-com.samsung.android.scpm
-com.google.android.glasses.core
-com.samsung.faceservice
-com.samsung.android.smartface
+com.google.android.apps.setupwizard.searchselector  
+com.google.android.aicore  
+com.google.android.feedback  
+com.google.android.adservices.api  
+com.google.android.apps.aiwallpapers  
+com.google.android.as  
+com.google.android.as.oss  
+com.samsung.android.vision.model  
+com.samsung.android.wifi.intelligence  
+com.samsung.android.aicore  
+com.samsung.android.wifi.ai  
+com.samsung.android.mocca  
+com.samsung.petservice  
+com.samsung.android.scpm  
+com.google.android.glasses.core  
+com.samsung.faceservice  
+com.samsung.android.smartface  
