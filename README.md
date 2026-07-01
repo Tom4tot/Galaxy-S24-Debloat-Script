@@ -163,7 +163,7 @@ Of course, you might lose some apps/features that you actually want to use, so b
 
 ### New system apps to disable (tested one One UI 8 - MAKE SURE YOU DON'T NEED THEM)
 - `adb shell pm disable-user --user 0 com.samsung.android.mapsagent && adb shell pm disable-user --user 0 com.samsung.android.visionintelligence && adb shell pm disable-user --user 0 com.samsung.android.carkey && adb shell pm disable-user --user 0 com.samsung.android.app.sketchbook && adb shell pm disable-user --user 0 com.google.android.apps.bard && adb shell pm disable-user --user 0 com.samsung.android.app.interpreter && adb shell pm disable-user --user 0 com.google.audio.hearing.visualization.accessibility.scribe && adb shell pm disable-user --user 0 com.sec.android.app.quicktool && adb shell pm disable-user --user 0 com.samsung.android.app.taskedge && adb shell pm disable-user --user 0 com.samsung.android.app.clipboardedge`  
-List:
+List:  
 com.google.android.apps.bard 
 com.google.audio.hearing.visualization.accessibility.scribe  
 com.samsung.android.app.clipboardedge  
@@ -173,4 +173,25 @@ com.samsung.android.app.taskedge
 com.samsung.android.carkey  
 com.samsung.android.mapsagent  
 com.samsung.android.visionintelligence  
-com.sec.android.app.quicktool  
+com.sec.android.app.quicktool
+
+## New apps disabled (2026-07-01) (tested one One UI 8.5 - MAKE SURE YOU DON'T NEED THEM)
+- `adb shell pm disable-user --user 0 com.google.android.apps.setupwizard.searchselector && adb shell pm disable-user --user 0 com.google.android.aicore && adb shell pm disable-user --user 0 com.google.android.feedback && adb shell pm disable-user --user 0 com.google.android.adservices.api && adb shell pm disable-user --user 0 com.google.android.apps.aiwallpapers && adb shell pm disable-user --user 0 com.google.android.as && adb shell pm disable-user --user 0 com.google.android.as.oss && adb shell pm disable-user --user 0 com.samsung.android.vision.model && adb shell pm disable-user --user 0 com.samsung.android.wifi.intelligence && adb shell pm disable-user --user 0 com.samsung.android.aicore && adb shell pm disable-user --user 0 com.samsung.android.wifi.ai && adb shell pm disable-user --user 0 com.samsung.android.mocca && adb shell pm disable-user --user 0 com.samsung.petservice && adb shell pm disable-user --user 0 com.samsung.android.scpm && adb shell pm disable-user --user 0 com.google.android.glasses.core && adb shell pm disable-user --user 0 com.google.android.apps.setupwizard.searchselector && adb shell pm disable-user --user 0 com.samsung.faceservice && adb shell pm disable-user --user 0 com.samsung.android.smartface`
+List:  
+com.google.android.apps.setupwizard.searchselector
+com.google.android.aicore
+com.google.android.feedback
+com.google.android.adservices.api
+com.google.android.apps.aiwallpapers
+com.google.android.as
+com.google.android.as.oss
+com.samsung.android.vision.model
+com.samsung.android.wifi.intelligence
+com.samsung.android.aicore
+com.samsung.android.wifi.ai
+com.samsung.android.mocca
+com.samsung.petservice
+com.samsung.android.scpm
+com.google.android.glasses.core
+com.samsung.faceservice
+com.samsung.android.smartface
